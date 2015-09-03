@@ -1,0 +1,30 @@
+{
+  "name": "jsonsocket-light",
+  "version": "1.0.1",
+  "description": "JSON sockets 100% compatible with net.Socket",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/idcware/jsonsocket-light.git"
+  },
+  "scripts": {
+    "test": "mocha $(shell find test -name '*.test.js')"
+  },
+  "keywords": [
+    "json",
+    "socket",
+    "jsonsocket",
+    "compatible"
+  ],
+  "author": "David Guerizec <david@guerizec.net>",
+  "maintainers": [
+    {
+      "name": "David Guerizec",
+      "email": "david@guerizec.net"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
